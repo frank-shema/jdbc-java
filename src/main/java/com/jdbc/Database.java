@@ -25,6 +25,7 @@ public class Database {
     public Database() {
         this.connect();
         this.migrate();
+
     }
 
     private void migrate() {
